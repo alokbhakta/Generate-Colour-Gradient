@@ -8,6 +8,10 @@
   --breakpoint-xl: 1600px;
 }
 
+/* * {
+  outline: 1px solid #f00 !important;
+} */
+
 @layer utilities {
   /* Hide scrollbar for Chrome, Safari and Edge */
   .no-scrollbar::-webkit-scrollbar {
@@ -16,7 +20,7 @@
 
   /* Hide scrollbar for IE, Edge and Firefox */
   .no-scrollbar {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;     /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
   }
 }

@@ -59,7 +59,7 @@ function App() {
 // console.log(num);
 // console.log(type);
   return (
-    <div className="min-h-screen w-screen bg-gray-100 overflow-x-hidden pb-4">
+    <div className="min-h-screen w-full bg-gray-100 overflow-x-hidden pb-4">
   {/* Header */}
   <div className="max-w-screen mx-auto px-4 sm:px-6 lg:px-8 pt-4 flex flex-col sm:flex-row items-center sm:justify-between gap-4">
     <h1 className="font-extrabold text-2xl sm:text-3xl bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent drop-shadow-md">
